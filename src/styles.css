@@ -1,0 +1,42 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+input:disabled {
+  background-color: lightgray;
+  border: none;
+}
+
+.input {
+  padding: 0px;
+  font-size: 48px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.btn {
+  padding: 15px 50px;
+  font-size: 36px;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  transition: 0.3s linear;
+}
+
+.btn:hover {
+  filter: grayscale(0.5);
+}
+
+.incrementBtn {
+  background-color: green;
+}
+
+.decrementBtn {
+  background-color: lightcoral;
+}
+
+.resetBtn {
+  margin-top: 20px;
+  background-color: black;
+}
